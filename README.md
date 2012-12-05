@@ -8,11 +8,11 @@ access their Cloud Storage objects and buckets.
 This demo allows you to test many of the API features of the Google Cloud
 Storage XML API. For example, you can list project buckets, list objects within
 a bucket, and upload an object to a bucket. For more information about the
-Cloud Storage API, please see the [documentation][1]:
+Cloud Storage API, please see the [documentation][1].
 
 Before running the application, install the dependencies (listed below) and
 update the information in the client_secrets.json file with your client id and
-secret available in the [Google API Console][2]:
+secret available in the [Google API Console][2].
 
 When running the application for the first time you will be asked to authorize
 to the Google Cloud Storage API. The demo uses OAuth2.0 for authorization and
@@ -34,7 +34,7 @@ project_info.
 
 ## Usage
 
-  $ python main.py [--logging_level=<log-level>]
+  $ python main.py [--logging_level=log-level]
 
 ### Log levels include
 
